@@ -60,10 +60,10 @@ while(init_centers != new_centers):
 
             plt.plot([x[0] for x in endpoints],
                      [y[1] for y in endpoints], color='green')
-    
     plt.show()
 
     if new_centers == init_centers: break
     else: 
         init_centers = new_centers
         new_centers = []
+        # nice
