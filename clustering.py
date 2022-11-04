@@ -66,4 +66,4 @@ while(init_centers != new_centers):
     else: 
         init_centers = new_centers
         new_centers = []
-        # nice
+ # nice
